@@ -1,11 +1,11 @@
-# [Paper Title]
-[Author 1, Author 2, ...]
+# Spurious Generalization Indicators - A Sanity Check on Shape Bias, Spectral Bias, and the Critical Band
+Paul Gavrikov and Janis Keuper
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
-Presented at: [Conference]
+Presented at: CVPR 2024
 
-[Paper]() | [ArXiv]() | [HQ Poster]() | [Talk]()
+<!-- [Paper]() | [ArXiv]() | [HQ Poster]() | [Talk]() -->
 
 
 Abstract: *[Abstract]*

@@ -1,0 +1,9 @@
+{
+    "baseline": ["tv_resnet50"],
+    "training_recipes": ["tv2_resnet50", "resnet50.d_in1k", "resnet50.c1_in1k", "resnet50.b1k_in1k", "resnet50.c2_in1k", "resnet50.b2k_in1k", "resnet50.a3_in1k", "resnet50.a2_in1k", "resnet50.a1h_in1k", "resnet50.a1_in1k"],
+    "augmentation": ["resnet50_diffusionnoise_fixed_nonoise", "resnet50_prime", "resnet50_deepaugment", "resnet50_noisymix", "resnet50_deepaugment_augmix", "resnet50_pixmix_90ep", "resnet50_pixmix_180ep", "resnet50_augmix_180ep", "resnet50_tsbias_tbias", "resnet50_tsbias_sbias", "resnet50_tsbias_debiased", "resnet50_opticsaugment"],
+    "stylized": ["resnet50_trained_on_SIN", "resnet50_trained_on_SIN_and_IN_then_finetuned_on_IN", "resnet50_trained_on_SIN_and_IN"],
+    "freezing": ["resnet50_frozen_random"],
+    "adversarial_training": ["robust_resnet50_l2_eps0.01", "robust_resnet50_l2_eps0.03", "robust_resnet50_l2_eps0.05", "robust_resnet50_l2_eps0.1", "robust_resnet50_l2_eps0.25", "robust_resnet50_l2_eps0.5", "robust_resnet50_l2_eps1", "robust_resnet50_linf_eps8.0", "robust_resnet50_l2_eps5", "robust_resnet50_linf_eps0.5", "robust_resnet50_linf_eps1.0", "robust_resnet50_linf_eps2.0", "robust_resnet50_linf_eps4.0", "robust_resnet50_l2_eps0", "robust_resnet50_l2_eps3"],
+    "contrastive": ["resnet50_moco_v3_100ep", "resnet50_moco_v3_300ep", "resnet50_moco_v3_1000ep", "resnet50_dino", "resnet50_swav", "resnet50_simclrv2"]
+}

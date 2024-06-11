@@ -52,11 +52,12 @@ If you find our work useful in your research, please consider citing:
 
 ```
 @InProceedings{Gavrikov_2024_CVPR,
-    title = {Can Biases in ImageNet Models Explain Generalization?}, 
-    author = {Paul Gavrikov and Janis Keuper},
+    author    = {Gavrikov, Paul and Keuper, Janis},
+    title     = {Can Biases in ImageNet Models Explain Generalization?},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month = {June},
-    year = {2024}
+    month     = {June},
+    year      = {2024},
+    pages     = {22184-22194}
 }
 ```
 

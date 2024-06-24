@@ -46,6 +46,10 @@ For ImagNet-ReaL place [real.json](https://github.com/google-research/reassessed
 
 \* Please run code/fix_inv2.py before running benchmarks.
 
+
+### Raw results and visualizations
+Please check [raw-data/benchmark.csv](raw-data/benchmark.csv) for all obtained benchmarks. We also provide a notebook in [code/plots.ipynb]/(code/plots.ipynb) showing how to handle the data to replicate our plots.
+
 ## Citation 
 
 If you find our work useful in your research, please consider citing:
